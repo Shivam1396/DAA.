@@ -1,3 +1,5 @@
+
+//queue without mention size limit
 let queue=[]
 
 function insertionqueue(a){
