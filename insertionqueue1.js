@@ -1,0 +1,20 @@
+let queue = [];
+let n = 5;
+let Rear = -1; // -1 means queue is empty, nothing inserted yet
+
+function insertionqueue(a) {
+    if (Rear === n - 1) {
+        console.log("overflow, exiting");
+        return; // stop here, don't insert
+    }
+    Rear++; // move rear pointer forward
+    queue.push(a);
+    console.log(queue);
+}
+
+insertionqueue(5);
+insertionqueue(332);
+insertionqueue(12);
+insertionqueue(5248889);
+insertionqueue(4444);
+insertionqueue(999); // this one should trigger overflow
