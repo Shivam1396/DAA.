@@ -8,7 +8,7 @@ if(n.length<=1){
 
 }
 let mid=Math.floor(n.length/2);
-let left=n.slice(0, mid);
+let left=n.slice(0, mid); 
 let right=n.slice(mid);
 return merge(mergeSort(left), mergeSort(right));
 }
