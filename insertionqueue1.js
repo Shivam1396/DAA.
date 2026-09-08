@@ -15,7 +15,7 @@ function insertionqueue(a) {
     console.log(queue);
 }
 
-insertionqueue(5);ssjfhgyagjfn
+insertionqueue(5);
 insertionqueue(332);
 insertionqueue(12);
 insertionqueue(5248889);
