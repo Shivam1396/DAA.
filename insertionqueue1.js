@@ -11,7 +11,7 @@ function insertionqueue(a) {
         return; 
     }
     Rear++;
-    queue.push(a);
+    queue.push(a);rhfgyerere
     console.log(queue);
 }
 
